@@ -1,0 +1,11 @@
+{
+  "name": "skylily-health",
+  "version": "1.0.0",
+  "description": "Service health monitoring CLI",
+  "type": "module",
+  "bin": { "sky-health": "dist/index.js" },
+  "scripts": { "build": "tsc" },
+  "keywords": ["health", "monitoring", "skylily"],
+  "license": "MIT",
+  "devDependencies": { "typescript": "^5.3.0", "@types/node": "^20.0.0" }
+}
